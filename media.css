@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1199px) {
+	html{
+		font-size: 8px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	html{
+		font-size: 7px;
+	}
+	.visible-lg{
+		display: none;
+	}
+	.humburger{
+		display: block;
+	}
+	.m-menu{
+		display: block;
+	}
+	.price-tags{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+
+		
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.price-tag{
+		margin: 2rem 0;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer-inner{
+		justify-content: center;
+	}
+	.socials ul li a{
+		font-size: 3rem;
+	}
+	.legal{
+		height: auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+
+		padding: 3rem 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.copy{
+		text-align: center;
+	}
+}
